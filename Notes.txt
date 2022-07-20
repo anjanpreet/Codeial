@@ -1,0 +1,3 @@
+First when the server runs app is using routes folder for router in app.use then in routes in index.js
+the home page runs in router.get('/',homeController.home); then to run multiple pages with a common 
+link users we navigate to different pages using router.use('/users',require('./users'));
